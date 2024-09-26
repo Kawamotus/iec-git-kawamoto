@@ -7,7 +7,7 @@ import io.ktor.server.routing.*
 fun Application.configureRouting() {
     routing {
         get("/") {
-            call.respondText("IEC!")
+            call.respondText("IEC 1!")
         }
     }
 }
